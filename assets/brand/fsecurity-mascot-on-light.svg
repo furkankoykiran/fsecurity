@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#e6edf5" />
+  <g opacity="0.4">
+    <line x1="64" y1="64" x2="448" y2="64" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="64" y1="448" x2="448" y2="448" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="64" y1="64" x2="64" y2="448" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="448" y1="64" x2="448" y2="448" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4" />
+  </g>
+  <g id="fsecurity-mascot-cerb">
+    <!-- Upright Radar Ears -->
+    <path id="cerb-ear-l" d="M 176 190 L 140 68 L 208 124 Z" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="cerb-ear-r" d="M 336 190 L 372 68 L 304 124 Z" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <line id="cerb-ear-channel-l" x1="152" y1="98" x2="186" y2="148" stroke="#64748b" stroke-width="6" stroke-linecap="square" />
+    <line id="cerb-ear-channel-r" x1="360" y1="98" x2="326" y2="148" stroke="#64748b" stroke-width="6" stroke-linecap="square" />
+
+    <!-- Cranial Brow Armor -->
+    <path id="cerb-crown" d="M 208 124 L 256 104 L 304 124 L 286 174 L 226 174 Z" fill="none" stroke="#080b10" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter" />
+    <line id="cerb-brow-divider" x1="226" y1="174" x2="286" y2="174" stroke="#64748b" stroke-width="6" stroke-linecap="square" />
+
+    <!-- Optical Sensor Visor (The Scanner Band) -->
+    <path id="cerb-visor" d="M 168 186 L 344 186 L 332 232 L 180 232 Z" fill="none" stroke="#080b10" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter" />
+    <rect id="cerb-visor-scanner" x="236" y="196" width="40" height="26" fill="#00f59b" />
+    <line id="cerb-visor-tick-l" x1="204" y1="196" x2="204" y2="222" stroke="#64748b" stroke-width="4" stroke-linecap="square" />
+    <line id="cerb-visor-tick-r" x1="308" y1="196" x2="222" stroke="#64748b" stroke-width="4" stroke-linecap="square" />
+
+    <!-- Muzzle & Jaw Armor -->
+    <path id="cerb-snout" d="M 214 232 L 214 336 L 256 374 L 298 336 L 298 232" fill="none" stroke="#080b10" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="cerb-mandible-l" d="M 180 250 L 198 320 L 224 354" fill="none" stroke="#64748b" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="cerb-mandible-r" d="M 332 250 L 314 320 L 288 354" fill="none" stroke="#64748b" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="cerb-nose" d="M 242 328 L 256 342 L 270 328 Z" fill="#64748b" stroke="#64748b" stroke-width="4" stroke-linejoin="miter" />
+
+    <!-- Tactical Perimeter Collar -->
+    <path id="cerb-collar-upper" d="M 160 380 L 256 418 L 352 380" fill="none" stroke="#080b10" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="cerb-collar-lower" d="M 160 412 L 256 450 L 352 412" fill="none" stroke="#080b10" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter" />
+    <circle id="cerb-collar-node" cx="256" cy="434" r="7" fill="#00f59b" />
+
+    <!-- Baseline Rule -->
+    <line id="cerb-baseline" x1="80" y1="474" x2="432" y2="474" stroke="#64748b" stroke-width="6" stroke-dasharray="12,8" stroke-linecap="square" />
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#e6edf5" />
+  <g opacity="0.6">
+    <circle cx="256" cy="256" r="230" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,6" />
+    <line x1="256" y1="26" x2="256" y2="486" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4,4" />
+    <line x1="26" y1="256" x2="486" y2="256" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4,4" />
+  </g>
+  <g id="fsecurity-canonical-mark">
+    <!-- Perimeter Bastion Boundary -->
+    <path id="bastion-n" d="M 216 68 L 256 44 L 296 68" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="bastion-ne" d="M 420 115 L 440 150 L 440 195" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="bastion-se" d="M 440 317 L 440 362 L 420 397" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="bastion-s" d="M 296 444 L 256 468 L 216 444" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="bastion-sw" d="M 92 397 L 72 362 L 72 317" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+    <path id="bastion-nw" d="M 72 195 L 72 150 L 92 115" fill="none" stroke="#080b10" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" />
+
+    <!-- Cardinal Caliper Crosshair Ticks -->
+    <line id="caliper-n" x1="256" y1="20" x2="256" y2="44" stroke="#64748b" stroke-width="8" stroke-linecap="square" />
+    <line id="caliper-s" x1="256" y1="468" x2="256" y2="492" stroke="#64748b" stroke-width="8" stroke-linecap="square" />
+    <line id="caliper-e" x1="440" y1="256" x2="464" y2="256" stroke="#64748b" stroke-width="8" stroke-linecap="square" />
+    <line id="caliper-w" x1="48" y1="256" x2="72" y2="256" stroke="#64748b" stroke-width="8" stroke-linecap="square" />
+
+    <!-- Telemetry Status Nodes -->
+    <circle id="node-e" cx="396" cy="256" r="7" fill="#00f59b" />
+    <circle id="node-w" cx="116" cy="256" r="7" fill="#00f59b" />
+
+    <!-- The Shared Lineage Canonical f -->
+    <path id="fsecurity-mark-f" d="M 216 384 L 194 384 L 194 172 L 236 128 L 336 128 L 302 168 L 238 168 L 238 214 L 306 214 L 284 254 L 238 254 L 238 348 Z" fill="none" stroke="#080b10" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter" />
+  </g>
+</svg>
